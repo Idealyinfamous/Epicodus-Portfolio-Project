@@ -1,0 +1,13 @@
+/*Global styling*/
+body {
+}
+/* Image sizing*/
+/* Reminder that .class #id */
+#profile {
+  width: 500px;
+  height: 600px;
+}
+img {
+  width: 500px;
+  width: 600px;
+}
