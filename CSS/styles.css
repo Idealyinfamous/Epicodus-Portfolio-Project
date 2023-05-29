@@ -1,0 +1,67 @@
+/*Global styling*/
+* {
+  box-sizing: border-box;
+}
+body {
+  display: block;
+  margin: auto;
+  background-color: #53a8b6;
+}
+
+/* Reminder that .class #id */
+#profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  height: auto;
+}
+#About-me {
+  display: block;
+  text-align: center;
+}
+
+.journey-column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.journey-row {
+  margin: auto;
+  content: "";
+  display: table;
+  clear: both;
+  position: sticky;
+  background-color: #79c2d0;
+  border-radius: 3%;
+}
+#Chef,
+#LWT,
+#iroh {
+  height: auto;
+  width: 645px;
+  height: 537px;
+  border-radius: 30%;
+}
+
+/*Projects Section*/
+div.projects {
+  border: 1px solid #ccc;
+  background-color: greenyellow;
+  float: left;
+}
+div.projects:hover {
+  border: 1px solid #777;
+}
+
+div .projects img {
+  width: 100%;
+  height: auto;
+  background-color: orange;
+}
+
+div.descript {
+  padding: 15px;
+  text-align: center;
+}
