@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,500;1,700&family=Ruda:wght@800&display=swap");
 /*Global styling*/
 * {
   box-sizing: border-box;
@@ -15,12 +16,13 @@ body {
   margin-right: auto;
   max-width: 500px;
   height: auto;
+  border-radius: 30px;
 }
 #About-me {
   display: block;
   text-align: center;
 }
-
+/*Journey Banner*/
 .journey-column {
   float: left;
   width: 33.33%;
@@ -35,33 +37,65 @@ body {
   position: sticky;
   background-color: #79c2d0;
   border-radius: 3%;
+  overflow: hidden;
 }
 #Chef,
 #LWT,
-#iroh {
+#bay {
   height: auto;
   width: 645px;
   height: 537px;
   border-radius: 30%;
 }
+/*Interests & hobbies*/
+ul {
+  display: inline-block;
+  text-align: center;
+  margin-left: 50px;
+}
 
 /*Projects Section*/
-div.projects {
-  border: 1px solid #ccc;
-  background-color: greenyellow;
-  float: left;
+#projects {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Nunito Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: plum;
+  align-items: center;
 }
-div.projects:hover {
-  border: 1px solid #777;
+.container {
+  display: flex;
+}
+.card {
+  height: 500px;
+  margin: 50px;
+  box-shadow: 5px 5px 20px #2d3053;
+  overflow: hidden;
 }
 
-div .projects img {
-  width: 100%;
-  height: auto;
-  background-color: orange;
+.egg,
+.Generation {
+  height: 500px;
+  width: 450px;
+  border-radius: 3px;
 }
 
-div.descript {
-  padding: 15px;
-  text-align: center;
+.intro {
+  height: 200px;
+  width: 350px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  background: #5585b5;
+  color: rgb(33, 14, 120);
+}
+h3 {
+  margin: 10px;
+  font-size: 40px;
+}
+#pro-desc {
+  font-size: 20px;
+  margin: 20px;
 }
