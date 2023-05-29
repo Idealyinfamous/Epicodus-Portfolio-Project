@@ -9,7 +9,6 @@ body {
   background-color: #53a8b6;
 }
 
-/* Reminder that .class #id */
 #profile {
   display: block;
   margin-left: auto;
@@ -20,6 +19,41 @@ body {
 }
 #About-me {
   display: block;
+  text-align: center;
+}
+h1,
+p {
+  text-align: center;
+  max-height: 600px;
+  margin: 0 auto;
+  padding: 50px 60px;
+}
+#title-name {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(102, 0, 128);
+  font-size: 60px;
+}
+
+/*Hobby lobby*/
+/*Interests & hobbies*/
+h2 {
+  text-align: center;
+  color: rgb(102, 0, 128);
+  text-decoration: underline overline thistle;
+}
+ul {
+  border-color: antiquewhite;
+}
+li,
+em {
+  text-align: center;
+  margin-block-start: auto;
+  padding: 5px;
+  list-style: none;
+  list-style-position: square;
+}
+span {
   text-align: center;
 }
 /*Journey Banner*/
@@ -47,12 +81,6 @@ body {
   height: 537px;
   border-radius: 30%;
 }
-/*Interests & hobbies*/
-ul {
-  display: inline-block;
-  text-align: center;
-  margin-left: 50px;
-}
 
 /*Projects Section*/
 #projects {
@@ -67,6 +95,7 @@ ul {
 }
 .container {
   display: flex;
+  float: left;
 }
 .card {
   height: 500px;
