@@ -34,8 +34,6 @@ p {
   font-size: 60px;
 }
 
-/*Hobby lobby*/
-/*Interests & hobbies*/
 h2 {
   text-align: center;
   color: rgb(102, 0, 128);
@@ -55,7 +53,7 @@ em {
 span {
   text-align: center;
 }
-/*Journey Banner*/
+
 .journey-column {
   float: left;
   width: 33.33%;
@@ -81,7 +79,6 @@ span {
   border-radius: 30%;
 }
 
-/*Projects Section*/
 #projects {
   margin: 0px;
   padding: 0px;
