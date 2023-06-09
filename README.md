@@ -8,7 +8,7 @@
 
 #### Journey at Epicodus landing page. This Portfolio emcompasses all my work while learning at Epicodus as a Lesbians Who Tech Edie Windsor Scholar.
 
-##[Check out project in Github pages here](https://idealyinfamous.github.io/Epicodus-Portfolio-Project/)
+[Check out project in Github pages here](https://idealyinfamous.github.io/Epicodus-Portfolio-Project/)
 
 ## Description
 
